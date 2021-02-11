@@ -47,7 +47,7 @@ parser.add_argument('--emb_size', type=int, default=100)
 parser.add_argument('--model', default='cnn')  # dan or lstm or cnn
 parser.add_argument('--f2model', default='lstm')  # dan or lstm or cnn
 # for LSTM model
-parser.add_argument('--attn', default='dot')  # attention mechanism (for LSTM): avg, last, dot
+parser.add_argument('--attn', default='dot')  # attention mechanism (for LSTM): avg, last,first , dot
 parser.add_argument('--bdrnn', dest='bdrnn', action='store_true', default=True)  # bi-directional LSTM
 # use deep averaging network or deep summing network (for DAN model)
 parser.add_argument('--sum_pooling/', dest='sum_pooling', action='store_true')

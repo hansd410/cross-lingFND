@@ -73,6 +73,9 @@ class LSTMFeatureExtractor(nn.Module):
 		if self.attn_type == 'last':
 			return ht[-1] if not self.bdrnn \
 						  else ht[-2:].transpose(0, 1).contiguous().view(batch_size, -1)
+		elif self.attn_type == 'first':
+			return ht[0] if not self.bdrnn \
+						  else ht[:1].transpose(0, 1).contiguous().view(batch_size, -1)
 		elif self.attn_type == 'avg':
 			unpacked_output = pad_packed_sequence(output, batch_first=True)[0]
 			return torch.sum(unpacked_output, 1) / lengths.float().view(-1, 1)
