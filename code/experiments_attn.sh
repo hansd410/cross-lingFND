@@ -1,68 +1,68 @@
 #python train.py --src_ref_dir ../data/NAIVE/Eng/ --tgt_ref_dir ../data/NAIVE/Kor/ --enRef_X_train en_train_data.txt --enRef_X_test en_test_data.txt --koRef_X_file ko_data.txt
 #mv save/adan /mnt/hansd410/adanModel/noNERver1
 
-python train.py --attn avg
-mv save/adan /mnt/hansd410/adanModel/attAvg1
-
-python train.py --attn avg
-mv save/adan /mnt/hansd410/adanModel/attAvg2
-
-python train.py --attn avg
-mv save/adan /mnt/hansd410/adanModel/attAvg3
-
-python train.py --attn avg
-mv save/adan /mnt/hansd410/adanModel/attAvg4
-
-python train.py --attn avg
-mv save/adan /mnt/hansd410/adanModel/attAvg5
-
-
-python train.py --attn last
-mv save/adan /mnt/hansd410/adanModel/attLast1
-
-python train.py --attn last
-mv save/adan /mnt/hansd410/adanModel/attLast2
-
-python train.py --attn last
-mv save/adan /mnt/hansd410/adanModel/attLast3
-
-python train.py --attn last
-mv save/adan /mnt/hansd410/adanModel/attLast4
-
-python train.py --attn last
-mv save/adan /mnt/hansd410/adanModel/attLast5
+#python train.py --attn avg
+#mv save/adan /mnt/hansd410/adanModel/attAvg1
+#
+#python train.py --attn avg
+#mv save/adan /mnt/hansd410/adanModel/attAvg2
+#
+#python train.py --attn avg
+#mv save/adan /mnt/hansd410/adanModel/attAvg3
+#
+#python train.py --attn avg
+#mv save/adan /mnt/hansd410/adanModel/attAvg4
+#
+#python train.py --attn avg
+#mv save/adan /mnt/hansd410/adanModel/attAvg5
+#
+#
+#python train.py --attn last
+#mv save/adan /mnt/hansd410/adanModel/attLast1
+#
+#python train.py --attn last
+#mv save/adan /mnt/hansd410/adanModel/attLast2
+#
+#python train.py --attn last
+#mv save/adan /mnt/hansd410/adanModel/attLast3
+#
+#python train.py --attn last
+#mv save/adan /mnt/hansd410/adanModel/attLast4
+#
+#python train.py --attn last
+#mv save/adan /mnt/hansd410/adanModel/attLast5
 
 
 python train.py --attn first
 mv save/adan /mnt/hansd410/adanModel/attFirst1
 
-python train.py --attn first
-mv save/adan /mnt/hansd410/adanModel/attFirst2
-
-python train.py --attn first
-mv save/adan /mnt/hansd410/adanModel/attFirst3
-
-python train.py --attn first
-mv save/adan /mnt/hansd410/adanModel/attFirst4
-
-python train.py --attn first
-mv save/adan /mnt/hansd410/adanModel/attFirst5
-
-
-python train.py --attn dot
-mv save/adan /mnt/hansd410/adanModel/attDot1
-
-python train.py --attn dot
-mv save/adan /mnt/hansd410/adanModel/attDot2
-
-python train.py --attn dot
-mv save/adan /mnt/hansd410/adanModel/attDot3
-
-python train.py --attn dot
-mv save/adan /mnt/hansd410/adanModel/attDot4
-
-python train.py --attn dot
-mv save/adan /mnt/hansd410/adanModel/attDot5
+#python train.py --attn first
+#mv save/adan /mnt/hansd410/adanModel/attFirst2
+#
+#python train.py --attn first
+#mv save/adan /mnt/hansd410/adanModel/attFirst3
+#
+#python train.py --attn first
+#mv save/adan /mnt/hansd410/adanModel/attFirst4
+#
+#python train.py --attn first
+#mv save/adan /mnt/hansd410/adanModel/attFirst5
+#
+#
+#python train.py --attn dot
+#mv save/adan /mnt/hansd410/adanModel/attDot1
+#
+#python train.py --attn dot
+#mv save/adan /mnt/hansd410/adanModel/attDot2
+#
+#python train.py --attn dot
+#mv save/adan /mnt/hansd410/adanModel/attDot3
+#
+#python train.py --attn dot
+#mv save/adan /mnt/hansd410/adanModel/attDot4
+#
+#python train.py --attn dot
+#mv save/adan /mnt/hansd410/adanModel/attDot5
 
 # ref option
 # --ref False
