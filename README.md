@@ -1,10 +1,8 @@
+This repository is implementation of an arxiv paper ""(to be announced).
 
+This code is a modified verson of ADAN (https://github.com/ccsasuke/adan).
 
-ROAD2: Reference Oriented Adversarial Fake News Dtector for Low-Resource Language2
-
-This code is modified version of ROAD.
-
-Data is not uploaded, but data structure is given below:
+Input data structure is given below:
 
 ## FILE STRUCTURE
 
