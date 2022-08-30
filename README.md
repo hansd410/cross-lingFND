@@ -1,4 +1,4 @@
-This repository is implementation of an arxiv paper ""(to be announced).
+This repository is implementation of an arxiv paper "Cross-lingual Transfer Learning for Fake News Detector in a Low-Resource Language" (link: https://arxiv.org/abs/2208.12482).
 
 This code is a modified verson of ADAN (https://github.com/ccsasuke/adan).
 
